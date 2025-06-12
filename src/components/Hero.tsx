@@ -7,8 +7,16 @@ import { Card } from '@/components/ui/card';
 const Hero = () => {
   return (
     <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background gradient */}
-      <div className="absolute inset-0 hero-gradient"></div>
+      {/* Background image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: `url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')`
+        }}
+      ></div>
+      
+      {/* Dark overlay */}
+      <div className="absolute inset-0 bg-background/80 backdrop-blur-sm"></div>
       
       {/* Animated background elements */}
       <div className="absolute inset-0">
