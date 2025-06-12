@@ -30,6 +30,9 @@ const Header = () => {
             <a href="#galeria" className="text-foreground hover:text-primary transition-colors">
               Galeria
             </a>
+            <a href="#regras" className="text-foreground hover:text-primary transition-colors">
+              Regras
+            </a>
             <a href="#contato" className="text-foreground hover:text-primary transition-colors">
               Contato
             </a>

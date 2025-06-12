@@ -5,6 +5,7 @@ import Hero from '@/components/Hero';
 import Schedule from '@/components/Schedule';
 import Standings from '@/components/Standings';
 import Gallery from '@/components/Gallery';
+import Rules from '@/components/Rules';
 import Footer from '@/components/Footer';
 
 const Index = () => {
@@ -15,6 +16,7 @@ const Index = () => {
       <Schedule />
       <Standings />
       <Gallery />
+      <Rules />
       <Footer />
     </div>
   );
