@@ -22,7 +22,7 @@ const Header = () => {
               Início
             </a>
             <a href="#cronograma" className="text-foreground hover:text-primary transition-colors">
-              Cronograma
+              Calendário
             </a>
             <a href="#classificacao" className="text-foreground hover:text-primary transition-colors">
               Classificação

@@ -51,7 +51,7 @@ const Hero = () => {
               <ChevronRight className="w-5 h-5 ml-2" />
             </Button>
             <Button size="lg" variant="outline" className="border-primary/50 hover:bg-primary/10 text-lg px-8 py-4">
-              Ver Cronograma
+              Ver Calendário
               <Calendar className="w-5 h-5 ml-2" />
             </Button>
           </div>
